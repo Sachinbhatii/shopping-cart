@@ -1,0 +1,41 @@
+.app {
+  padding: 20px;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.cart-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  position: relative;
+  padding: 8px;
+  border-radius: 8px;
+  transition: background .15s ease;
+}
+
+.cart-button:hover {
+  background: rgba(0, 0, 0, 0.03);
+}
+
+.cart-count {
+  background: #ff4d4d;
+  color: white;
+  border-radius: 50%;
+  padding: 4px 7px;
+  font-size: 12px;
+  position: absolute;
+  top: -6px;
+  right: -6px;
+}
